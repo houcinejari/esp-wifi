@@ -4,11 +4,11 @@ A WiFi, BLE and ESP-NOW driver for Espressif microcontrollers.
 
 ## Current support
 
-If a cell contains am em dash (&mdash;) this means that the particular feature is not present for a chip. A check mark (✓) means that some driver implementation exists. A Tilde (&tilde;) means its implemented but buggy. An empty cell means that the feature is present in the chip but not implemented yet.
+If a cell contains am em dash (&mdash;) this means that the particular feature is not present for a chip. A check mark (✓) means that some driver implementation exists. An empty cell means that the feature is present in the chip but not implemented yet.
 
 |          | [Wifi](https://github.com/esp-rs/esp-wifi/issues/94) | [BLE](https://github.com/esp-rs/esp-wifi/issues/93) | [Coex](https://github.com/esp-rs/esp-wifi/issues/92) | ESP-NOW |
 | :------: | :--------------------------------------------------: | :-------------------------------------------------: | :--------------------------------------------------: | :-----: |
-|  ESP32   |                          ✓                           |                          ✓                          |                       &tilde;                        |    ✓    |
+|  ESP32   |                          ✓                           |                          ✓                          |                          ✓                           |    ✓    |
 | ESP32-S2 |                          ✓                           |                       &mdash;                       |                       &mdash;                        |    ✓    |
 | ESP32-S3 |                          ✓                           |                          ✓                          |                          ✓                           |    ✓    |
 | ESP32-C3 |                          ✓                           |                          ✓                          |                          ✓                           |    ✓    |
